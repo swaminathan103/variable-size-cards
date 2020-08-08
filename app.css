@@ -1,0 +1,77 @@
+/*Display Inline Block*/
+/* .blogs-list {
+    width: 900px;
+    height: 50%; */
+    /* for vertical scroll */
+    /* overflow: auto;  */
+    /*For center alignment*/
+    /* text-align: center;  */
+    /* horizontal scroll */
+    /* white-space: nowrap;  */
+/* } */
+
+/* .blogs-list > .blogs {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    background: red;
+    width: 100px;
+} */
+
+/* Display flex */
+/* .blogs-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.blogs-list > .blogs {
+    margin: 10px;
+    border: 2px solid black;
+    background: red;
+    width: 100px;
+} */
+
+/* float */
+/* .blogs-list {
+    width: 900px;
+    overflow: auto;
+}
+
+.blogs-list > .blogs {
+    float: left;
+    margin: 10px;
+    border: 2px solid black;
+    background: red;
+    width: 100px;
+} */
+
+/* position absolute*/
+/* .blogs-list {
+    position: relative;
+    width: 900px;
+}
+
+.blogs-list > .blogs {
+    position: absolute;
+    margin: 10px;
+    border: 2px solid black;
+    background: red;
+    width: 100px;
+}
+
+Not able to do using absolute because it positions every element at the same position. Need to handle individually
+*/
+
+.blogs-list {
+    position: relative;
+    width: 100%;
+}
+
+.blogs-list > .blogs {
+    position: absolute;
+    margin: 10px;
+    border: 2px solid black;
+    background: red;
+    width: 100px;
+}
